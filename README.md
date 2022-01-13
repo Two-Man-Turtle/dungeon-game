@@ -1,6 +1,6 @@
 # dungeon-game
 
-Final Project for Momentum/
+Final Project for Momentum
 
 Team: Two-Man-Turtle
 

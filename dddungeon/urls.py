@@ -23,6 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #api
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
     #START HERE 1/19
     path('api/all_scores', views.ScoreListView.as_view()),
 ]
